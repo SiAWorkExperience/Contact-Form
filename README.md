@@ -82,11 +82,14 @@ Another useful skill I learned was how to properly utilise JavaScript in order t
 This is one example of how I was able to validate the "First Name" field:
 
 HTML:
+```
   <label for="fName">First Name <span id="asterix">*</span></label>
   <input type="text" id="fName" name="fName" class="input">
   <span id="fNameError" class="errorMessage"></span>
+```
 
 CSS:
+```
 .errorMessage{
   color: hsl(0, 66%, 54%);
 }
@@ -104,8 +107,10 @@ CSS:
   background-color: #FFFFFF;
   height: 30px;
 }
+```
 
 JS:
+```
 function validateForm(){
   const firstName = document.getElementById("fName").value;
   fNameError.textContent = "";
@@ -117,6 +122,7 @@ if (firstName == ""){
     isValid = false;
   }
   return isValid
+```
 
 ### Continued development
 
