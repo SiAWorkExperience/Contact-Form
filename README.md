@@ -34,9 +34,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](![Screenshot 2024-06-27 14 54 37](https://github.com/SiAWorkExperience/SiAWorkExperience.github.io/assets/173684234/0c104f06-902e-44a0-9bcb-727361f51611)
-)
-
+![Screenshot 2024-06-27 14 54 37](https://github.com/SiAWorkExperience/SiAWorkExperience.github.io/assets/173684234/0c104f06-902e-44a0-9bcb-727361f51611)
 
 ### Links
 
