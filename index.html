@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -52,8 +52,9 @@
   <label>
   <input type="checkbox" id="consent" name="consent" value="consent">
   <label for="consent">I consent to being contacted by the team <span id="asterix">*</span></label><br>
+  </label>
   <span id="checkboxError" class="errorMessage"></span><br><br>
-  <input type="button" value="Submit" class="submit" onclick="validateForm()">
+  <input type="button" value="Submit" class="submit" onclick="validateForm()" aria-label="Submit form">
 </form>
 <script src="script.js"></script>
 </body>
