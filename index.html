@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<body>
+  <div id="popup">
+    <span><b>Message Sent!</b></span><br>
+    <span>Thanks for completing the form. We'll be in touch soon!</span>
+  </div>
+<form id="form">
+  <h1> Contact Us </h1>
+  <div class="flexBox">
+    <div class="flex1">
+  <label for="fName">First Name <span id="asterix">*</span></label>
+  <input type="text" id="fName" name="fName" class="input">
+  <span id="fNameError" class="errorMessage"></span>
+    </div>
+    <div class="flex2">
+  <label for="lName">Last Name <span id="asterix">*</span> </label>
+  <input type="text" id="lName" name="lName" class="input">
+  <span id="lNameError" class="errorMessage"></span>
+    </div>
+  </div>
+  <br>
+  <label for="email">Email Address <span id="asterix">*</span> </label>
+  <input type="text" id="email" name="email" class="input">
+  <span id="emailError" class="errorMessage"></span><br>
+  <label for="qType">Query Type <span id="asterix">*</span></label>
+  <div class="flexBox">
+    <div class="flex1">
+  <div class="input" id="radioButton1">
+  <label>
+  <input type="radio" id="generalEnquiry" name="qType" value="General Enquiry" onclick="radioChange1()">General Enquiry
+  </label>
+      </div>
+  </div>
+    <div class="flex2">
+  <div class="input" id="radioButton2">
+  <label>
+  <input type="radio" id="supportRequest" name="qType" value="Support Request" onclick="radioChange2()">Support Request
+  </label>
+  </div>
+    </div>
+  <span id="queryError" class="errorMessage"></span>
+  </div>
+  <br>
+  <label for="message">Message <span id="asterix">*</span></label>
+  <textarea rows="3" wrap="hard" id="message" class="input"></textarea>
+  <span id="messageError" class="errorMessage"></span><br>
+  <label>
+  <input type="checkbox" id="consent" name="consent" value="consent">
+  <label for="consent">I consent to being contacted by the team <span id="asterix">*</span></label><br>
+  <span id="checkboxError" class="errorMessage"></span><br><br>
+  <input type="button" value="Submit" class="submit" onclick="validateForm()">
+</form>
+<script src="script.js"></script>
+</body>
+</html>
