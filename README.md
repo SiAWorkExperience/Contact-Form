@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://github.com/SiAWorkExperience/SiAWorkExperience.github.io/assets/173684234/a90d70b6-5d90-4a7b-b494-e49445d1e1ca)
+![](https://github.com/SiAWorkExperience/SiAWorkExperience.github.io/assets/173684234/b047e15d-f2c0-49fd-908b-b34664db3670)
 
 
 ### Links
