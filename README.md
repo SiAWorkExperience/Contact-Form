@@ -13,6 +13,7 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+- [Reflection](#reflection)
 - [Author](#author)
   
 
@@ -135,6 +136,17 @@ In future projects, I would like to continue refining my skills using CSS as it 
 
 - [https://www.w3schools.com/] - This is a very useful site for finding how to use certain syntax for HTML, CSS and JS. I would highly recommend it for those still learning the basics of coding in these languages.
 - [https://flexboxfroggy.com/] - This is a great game for learning how to properly manipulate CSS flexbox, providing challenged to demonstrate how flexbox can be used to manipulate on-screen elements to achieve a desired layout.
+
+## Reflection
+
+### What are you most proud of, and what would you do differently next time?
+I am most proud of being able to very closely match the appearance of the example given, providing validation using JavaScript and adding a toast message upon completing the form. Next time, I would work on the CSS last, as this would help me to focus on creating the content and functionality of the website first, before having to work on the aesthetics.
+
+### What challenges did you encounter, and how did you overcome them?
+I encountered a challenge when testing the layout of the website when viewed using a mobile phone/with a smaller resolution, as some of the input boxes remained on the same row instead of being wrapped onto a new row. This resulted in text boxes being crammed into a small space, making them hard to read and access. To overcome this, I placed these elements in a flex box and used CSS to change the flex value from 50% to 100% when the window reached a certain width, causing the boxes to be placed on a new row to adapt to the size of the window. For mobile devices, a meta tag was added to properly format the content.
+
+### What specific areas of your project would you like help with?
+How would I be able to create a gap between two items in a flex container, such as the first name and last name inputs or the two radio inputs?
 
 ## Author
 
