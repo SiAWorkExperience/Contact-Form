@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to create a proper layout for HTML documents by using CSS, in addition to flexbox.
+I learned how to create a proper layout for HTML documents by using CSS, in addition to using flexbox to properly organise elements.
 
 ```
 form{
@@ -65,7 +65,7 @@ form{
 }
 ```
 
-Furthermore, I was able to adapt the page to change it's format for mobile devices, which was achieved using CSS.
+Furthermore, I was able to adapt the page for mobile devices, which was achieved using CSS to detect when a certain window width was used.
 
 ```
 @media (max-width: 644px){
@@ -129,7 +129,7 @@ function validateForm(){
 
 ### Continued development
 
-In future projects, I would like to continue refining my skills using CSS and JavaScript, as I found them to be very powerful tools for improving the user experience of a website. In particular, I would like to practice with flexbox and grid in CSS, as I found them essential for creating proper layouts and formatting the contents based on the window size. Practicing Javascript would help to add more user interactivity to any websites I design in the future and improve my understanding of what can be done with JS.
+In future projects, I would like to continue refining my skills using CSS as it was essential for creating a layout and theme which could be carried over to multiple HTML documents, improving the user experience and reducing the need to copy code multiple times. In particular, I would like to practice with flexbox and grid in CSS, as I found them essential for creating proper layouts and formatting the contents based on the window size. Practicing Javascript would help to add more user interactivity to any websites I design in the future and improve my understanding of what can be done with JS, as it is a very powerful tool which 
 
 ### Useful resources
 
