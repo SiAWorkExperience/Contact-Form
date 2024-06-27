@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to create a proper layout for HTML documents by using CSS, in addition to using flexbox to properly organise elements.
+I learned how to create a proper layout for HTML documents by using CSS, in addition to using flexbox to properly organise elements. This helped to achieve the desired structure and appearance of the website.
 
 ```
 form{
@@ -80,9 +80,9 @@ Furthermore, I was able to adapt the page for mobile devices, which was achieved
 }
 ```
 
-Another useful skill I learned was how to properly utilise JavaScript in order to provide client-side validation and feedback as to what needs to be filled in.
+Another useful skill I learned was how to properly utilise JavaScript in order to provide client-side validation. By creating a function which takes in the input from the form, the data entered can be checked against the rules and either accepted or denied, providing an appropriate message if the rules are not met.
 
-This is one example of how I was able to validate the "First Name" field:
+This is an example of how I was able to validate the "First Name" field:
 
 HTML:
 ```
@@ -129,12 +129,12 @@ function validateForm(){
 
 ### Continued development
 
-In future projects, I would like to continue refining my skills using CSS as it was essential for creating a layout and theme which could be carried over to multiple HTML documents, improving the user experience and reducing the need to copy code multiple times. In particular, I would like to practice with flexbox and grid in CSS, as I found them essential for creating proper layouts and formatting the contents based on the window size. Practicing Javascript would help to add more user interactivity to any websites I design in the future and improve my understanding of what can be done with JS, as it is a very powerful tool which 
+In future projects, I would like to continue refining my skills using CSS as it was essential for creating a layout and theme which could be carried over to multiple HTML documents, improving the user experience and reducing the need to copy code multiple times. In particular, I would like to practice with flexbox and grid in CSS, as I found them essential for creating proper layouts and formatting the contents based on the window size. Practicing Javascript would help to add more user interactivity to any websites I design in the future and improve my understanding of what can be done with JS, as it is a very powerful tool with many different uses for adding interactivity to a website.
 
 ### Useful resources
 
-- [https://www.w3schools.com/] - This is a very useful site for finding how to use certain syntax for HTML, CSS and JS.
-- [https://flexboxfroggy.com/] - This is a great game for learning how to properly manipulate CSS flexbox.
+- [https://www.w3schools.com/] - This is a very useful site for finding how to use certain syntax for HTML, CSS and JS. I would highly recommend it for those still learning the basics of coding in these languages.
+- [https://flexboxfroggy.com/] - This is a great game for learning how to properly manipulate CSS flexbox, providing challenged to demonstrate how flexbox can be used to manipulate on-screen elements to achieve a desired layout.
 
 ## Author
 
