@@ -120,9 +120,6 @@ if (firstName == ""){
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 In future projects, I would like to continue refining my skills using CSS and JavaScript, as I found them to be very powerful tools. In particular, I would like to practice with flexbox and grid in CSS, as I found them essential for creating a proper layout for web pages.
 
 ### Useful resources
