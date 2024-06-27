@@ -54,6 +54,7 @@ Users should be able to:
 
 I learned how to create a proper layout for HTML documents by using CSS, in addition to flexbox.
 
+```
 form{
   border: 2px solid white;
   border-radius: 7px;
@@ -63,9 +64,11 @@ form{
   background-color: white;
   max-width: 65%;
 }
+```
 
 Furthermore, I was able to adapt the page to change it's format for mobile devices, which was achieved using CSS.
 
+```
 @media (max-width: 644px){
   .flex1, .flex2{
     flex: 100%;
@@ -76,6 +79,7 @@ Furthermore, I was able to adapt the page to change it's format for mobile devic
     max-width: 80%;
   }
 }
+```
 
 Another useful skill I learned was how to properly utilise JavaScript in order to provide client-side validation and feedback as to what needs to be filled in.
 
@@ -116,7 +120,7 @@ function validateForm(){
   fNameError.textContent = "";
   fNElement.className = "input";
   let isValid = true;
-if (firstName == ""){
+  if (firstName == ""){
     fNameError.textContent = "This field is required";
     fNElement.className = "inputError";
     isValid = false;
@@ -126,12 +130,12 @@ if (firstName == ""){
 
 ### Continued development
 
-In future projects, I would like to continue refining my skills using CSS and JavaScript, as I found them to be very powerful tools. In particular, I would like to practice with flexbox and grid in CSS, as I found them essential for creating a proper layout for web pages.
+In future projects, I would like to continue refining my skills using CSS and JavaScript, as I found them to be very powerful tools for improving the user experience of a website. In particular, I would like to practice with flexbox and grid in CSS, as I found them essential for creating proper layouts and formatting the contents based on the window size. Practicing Javascript would help to add more user interactivity to any websites I design in the future and improve my understanding of what can be done with JS.
 
 ### Useful resources
 
 - [https://www.w3schools.com/] - This is a very useful site for finding how to use certain syntax for HTML, CSS and JS.
-- [https://flexboxfroggy.com/] - This is a great game for learning how to properly manipulate CSS flexbox
+- [https://flexboxfroggy.com/] - This is a great game for learning how to properly manipulate CSS flexbox.
 
 ## Author
 
