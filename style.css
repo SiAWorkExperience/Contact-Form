@@ -78,23 +78,26 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 7px;
 }
 
 .flex1{
   display: flex;
   flex-flow: column wrap;
-  flex: 50%;
+  flex: 49%;
 }
 
 .flex2{
   display: flex;
   flex-flow: column wrap;
-  flex: 50%;
+  flex: 49%;
 }
 
 @media (max-width: 644px){
   .flex1, .flex2{
     flex: 100%;
+  }.flexBox{
+    gap: 10px;
   }body{
     padding-top: 10px;
   }form{
