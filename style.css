@@ -68,6 +68,7 @@ body{
   border: 0px;
   border-radius: 7px;
   background-color: hsl(169, 82%, 27%);
+  font-family: "Karla", sans-serif;
 }
 
 .submit:hover{
