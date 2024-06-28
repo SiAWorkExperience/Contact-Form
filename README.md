@@ -145,7 +145,7 @@ I am most proud of being able to very closely match the appearance of the exampl
 I encountered a challenge when testing the layout of the website when viewed using a mobile phone/with a smaller resolution, as some of the input boxes remained on the same row instead of being wrapped onto a new row. This resulted in text boxes being crammed into a small space, making them hard to read and access. To overcome this, I placed these elements in a flex box and used CSS to change the flex value from 50% to 100% when the window reached a certain width, causing the boxes to be placed on a new row to adapt to the size of the window. For mobile devices, a meta tag was added to properly format the content.
 
 ### What specific areas of your project would you like help with?
-How do you properly implement accessibility features, such as screen reader, into a web page to make sure that everything is easy to understand for all users?
+How do you properly implement accessibility features, such as screen reader, into a web page to make sure that everything is properly formatted and easy to understand for all users?
 
 ## Author
 
