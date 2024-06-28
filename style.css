@@ -103,7 +103,7 @@ main{
     flex: 100%;
   }.flexBox{
     gap: 10px;
-  }body{
+  }main{
     padding-top: 10px;
   }form{
     padding: 0px 30px 15px 30px;
