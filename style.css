@@ -78,19 +78,18 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 7px;
 }
 
 .flex1{
   display: flex;
   flex-flow: column wrap;
-  flex: 49%;
+  flex: 50%;
 }
 
 .flex2{
   display: flex;
   flex-flow: column wrap;
-  flex: 49%;
+  flex: 50%;
 }
 
 @media (max-width: 644px){
