@@ -12,6 +12,10 @@ form{
 
 body{
   background: hsl(148, 38%, 91%);
+} 
+
+main{
+  background: hsl(148, 38%, 91%);
   accent-color: hsl(169, 82%, 27%);
   font-family: "Karla", sans-serif;
   font-size: 16px;
