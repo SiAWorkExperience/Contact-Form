@@ -4,6 +4,7 @@ let emElement = document.getElementById("email");
 let msElement = document.getElementById("message");
 let element1 = document.getElementById("radioButton1");
 let element2 = document.getElementById("radioButton2");
+let form = document.getElementById("form");
 
 function validateForm(){
   const firstName = document.getElementById("fName").value;
@@ -61,6 +62,9 @@ function validateForm(){
     const popup = document.getElementById("popup");
     popup.className = "show";
     setTimeout(function(){popup.className = popup.className.replace("show", "")}, 3000);
+    form.reset();
+    element1.className = "input";
+    element2.className = "input";
   }
   return isValid
 }
